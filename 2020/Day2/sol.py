@@ -2,7 +2,7 @@ def parse_password_line(input_line):
     parsed_dict = {
     }
 
-    line_list = line.split("-", 1)
+    line_list = input_line.split("-", 1)
     parsed_dict["first_num"] = int(line_list[0])
     line_list = line_list[1].split(" ", 1)
     parsed_dict["second_num"] = int(line_list[0])
@@ -32,22 +32,23 @@ def eval_parsed_password_policy2(parsed_dict):
     
     return (first_position != second_position)
         
+def main():
+    with open("input.txt") as input:
+        input_list = input.readlines()
+        input.close()
+
+    number_of_valid_passwords_policy1 = 0
+    number_of_valid_passwords_policy2 = 0
+
+    for line in input_list:
+        parsed_dict = parse_password_line(line)
+        if eval_parsed_password_policy1(parsed_dict):
+            number_of_valid_passwords_policy1 += 1
+        if eval_parsed_password_policy2(parsed_dict):
+            number_of_valid_passwords_policy2 += 1
+
+    print(f"Part One Solution: {number_of_valid_passwords_policy1}\nPart Two Solution: {number_of_valid_passwords_policy2}")
 
 
-### DRIVER CODE
-
-with open("input.txt") as input:
-    input_list = input.readlines()
-    input.close()
-
-number_of_valid_passwords_policy1 = 0
-number_of_valid_passwords_policy2 = 0
-
-for line in input_list:
-    parsed_dict = parse_password_line(line)
-    if eval_parsed_password_policy1(parsed_dict):
-        number_of_valid_passwords_policy1 += 1
-    if eval_parsed_password_policy2(parsed_dict):
-        number_of_valid_passwords_policy2 += 1
-
-print(f"Part One Solution: {number_of_valid_passwords_policy1}\nPart Two Solution: {number_of_valid_passwords_policy2}")
+if __name__ == '__main__':
+    main()
