@@ -1,7 +1,8 @@
 # Day Two
 
 #### Challenge Overview
-[The second challenge of 2020](https://adventofcode.com/2020/day/2) kept things simple. 
+[The second challenge of 2020](https://adventofcode.com/2020/day/2) kept things simple.
+
 Part One: Given passwords and character requirements, verify that each password contains the specified character a number of times that falls in the given range.
 
 Part Two: Given passwords and character requirements, verify that each password contains the specified character in one of the two given spots.
