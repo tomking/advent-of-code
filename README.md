@@ -1,4 +1,7 @@
 # Advent of Code
+
+## THIS REPO IS CURRENTLY BEING UPDATED, PLEASE CHECK BACK SOON
+
 A repository to hold my solutions to the :christmas_tree: [Advent of Code](https://adventofcode.com/) :christmas_tree: Puzzles.
 #### General Overview
 For those not familiar with [Advent of Code](https://adventofcode.com/), it is a yearly coding challenge consisting of two problems released each day in the month of December.
