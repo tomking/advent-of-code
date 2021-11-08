@@ -1,4 +1,4 @@
-# Advent of Code
+# 🎄Advent of Code🎄
 
 ## ⚠️THIS REPO IS CURRENTLY BEING UPDATED, PLEASE CHECK BACK SOON⚠️
 
