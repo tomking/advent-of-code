@@ -4,7 +4,7 @@
 
 A repository to hold my solutions to the :christmas_tree: [Advent of Code](https://adventofcode.com/) :christmas_tree: Puzzles.
 #### General Overview
-For those not familiar with [Advent of Code](https://adventofcode.com/), it is a yearly coding challenge consisting of two problems released each day in the month of December.
+For those not familiar with [Advent of Code](https://adventofcode.com/), it is a yearly coding challenge consisting of two problems released each day throughout the month of December.
 
 This repository is sorted at the top level by year. Each year contains a series of directories corresponding to each day of the challenge. Both challenges for a day will be found in that day's directory.
 
@@ -20,4 +20,4 @@ Each day's directory will contain a readme that explains my approach to solving 
     A wonderful collection of helpful resources maintained by [Bogdanp](https://github.com/Bogdanp).
 
 #### Contributing
-If by some chance you feel the desire to contribute in some way to this repository please feel free to fork and make a pull request and I will be happy to check it out.
+If by some chance you feel the desire to contribute or offer feedback in some way to this repository please feel free to open an issue and I will gladly check it out.
